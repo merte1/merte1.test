@@ -1,6 +1,5 @@
 window.koc.initialize = function () {
 
-    debugger;
     // hide question and next button
     var container = this.getQuestionContainer();
     container.querySelector('.Inner').style.display = 'none';
