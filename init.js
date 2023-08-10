@@ -1,4 +1,6 @@
 window.koc.initialize = function () {
+    var container = this.getQuestionContainer();
+    
     // load MinnoJS from the CDN (you probably don't need to change this)
     var scriptTag = document.createElement('script');
     scriptTag.src = 'https://cdn.jsdelivr.net/gh/minnojs/minno-quest@0.3/dist/pi-minno.js';
