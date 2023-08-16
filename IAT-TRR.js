@@ -316,7 +316,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Texts for the trials that show the debriefing.
 			preDebriefingText : 'Lütfen sonucunuzu görmek için boşluk tuşuna basınız.', //Text in the trial that comes before showing the debriefing.
 			preDebriefingTouchText : 'Touch the bottom green area to see your result', //Touch version for the text in the trial that comes before showing the debriefing.
-			debriefingTextTop : '<b>Bu ekrandan sonra lütfen ekranı kapatmayınız</b>, sonuç sonrası devam sorularını yanıtlayınız.<br/>Sonucunuz:', //Will be shown above the feedback text.
+			debriefingTextTop : 'Bu ekrandan sonra lütfen ekranı kapatmayınız, sonuç sonrası devam sorularını yanıtlayınız. Sonucunuz:', //Will be shown above the feedback text.
 			//ATTENTION: We do not recommend showing participants their results. The IAT is a typical psychological measure so it is not very accurate. 
 			//In Project Implicit's website, you can see that we added much text to explain that there is still much unknown about the meaning of these results.
 			//We strongly recommend that you provide all these details in the debriefing of the experiment.
