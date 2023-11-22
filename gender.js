@@ -44,6 +44,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 		attribute1 :
 		{
 			name : 'Erkek',
+			displayInResultAs: 'Erkeği',
 			title : {
 				media : {word : 'Erkek'},
 				css : {color:'#0000FF','font-size':'1.8em'},
@@ -62,6 +63,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js'], function(APIConstructo
 		attribute2 :
 		{
 			name : 'Kadın',
+			displayInResultAs: 'Kadını',
 			title : {
 				media : {word : 'Kadın'},
 				css : {color:'#0000FF','font-size':'1.8em'},
