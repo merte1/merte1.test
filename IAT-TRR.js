@@ -1331,8 +1331,8 @@ define(['pipAPI', 'pipScorer', 'underscore'], function (APIConstructor, Scorer, 
 		function getFB(inText, categoryA, categoryB) {
 			var retText = inText.replace(/attribute1/g, att1.displayInResultAs);
 			retText = retText.replace(/attribute2/g, att2.displayInResultAs);
-			retText = retText.replace(/categoryA/g, displayInResultAs);
-			retText = retText.replace(/categoryB/g, displayInResultAs);
+			retText = retText.replace(/categoryA/g, categoryA.displayInResultAs);
+			retText = retText.replace(/categoryB/g, categoryB.displayInResultAs);
 			return retText;
 		}
 
