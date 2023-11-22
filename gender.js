@@ -7,6 +7,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], f
 
 		category1 : {
 			name : 'Kariyer', //Will appear in the data.
+			displayInResultAs: 'Kariyer',
 			title : {
 				media : {word : 'Kariyer'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
@@ -26,6 +27,7 @@ define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], f
 		},	
 		category2 :	{
 			name : 'Aile', //Will appear in the data.
+			displayInResultAs: 'Aile',
 			title : {
 				media : {word : 'Aile'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
