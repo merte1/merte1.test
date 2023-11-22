@@ -1,3 +1,5 @@
+var uniqueId = () => Date.now().toString(36) + Math.random().toString(36).substring(2);
+
 define(['pipAPI', window.koc.sourceBase + '/IAT-TRR.js' + '?r=' + uniqueId()], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
@@ -109,4 +111,4 @@ var posWords = API.shuffle([
 	});
 });
 
-let uniqueId = () => Date.now().toString(36) + Math.random().toString(36).substring(2);
+
